@@ -7,7 +7,7 @@ simulate the embedded controller in a microwave oven.
 # Procedure Details:
 While not cooking (not at any mode), message is shown on LCD "select a choice"
 
-. If A (for popcorn) is pushed on the keypad, the LCD should show "Popcorn" for two seconds and then start cooking for 1 minute while the remaining cook time counts down (in seconds) on the LCD.
+* If A (for popcorn) is pushed on the keypad, the LCD should show "Popcorn" for two seconds and then start cooking for 1 minute while the remaining cook time counts down (in seconds) on the LCD.
 . If B (for Beef) or C (for chicken) is pushed on the keypad, the LCD should show "Beef weight?" or "Chicken weight?" (respectively) should appear on the LCD until the user enters an integer value between 1 and 9 on the keypad to indicate how many kilos are there to be defrosted. After a valid number is entered, clear the LCD display and show the value of the weight on the LCD for two seconds, and then start cooking while the remaining cook time counts down (in seconds) on the LCD. o Beef is defrosted at a rate of 0.5 minutes per kilo. o Chicken is defrosted at a rate of 0.2 minutes per kilo. o If an illegal number is entered, the LCD should show "Err" for two seconds, then show previous message.
 . If D (for entering certain time) is pushed on the keypad, the LCD should show "Cooking time?" until the user enters a value between 1 and 30 to indicate the cooking time required in minutes and seconds. o This value is displayed on the LCD as it is entered as the following example pressing 1 displays 00:01, then pressing 2 displays 00:12, then pressing 4 displays 01:24, then pressing 5 displays 12:45
 . Start/Stop/Pause cooking conditions:
