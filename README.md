@@ -1,4 +1,4 @@
-![182040678-89dc50d8-6313-47e6-8c23-d0f9eada21fa](https://github.com/mohamedmostaf21/Microwave-oven-controller/assets/87494262/b19d45b0-a707-4335-aad0-a7a299418e36)Microwave-Oven-Controller-Project
+*Microwave-Oven-Controller-Project*
 This project is for Introduction to Embedded Systems Course. it was written in C using Keil 4.
 
 Aim
