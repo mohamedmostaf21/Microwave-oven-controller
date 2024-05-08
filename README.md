@@ -1,10 +1,10 @@
-*Microwave-Oven-Controller-Project*
+#Microwave-Oven-Controller-Project
 This project is for Introduction to Embedded Systems Course. it was written in C using Keil 4.
 
-Aim
+#Aim
 simulate the embedded controller in a microwave oven.
 
-Procedure Details:
+#Procedure Details:
 While not cooking (not at any mode), message is shown on LCD "select a choice"
 
 If A (for popcorn) is pushed on the keypad, the LCD should show "Popcorn" for two seconds and then start cooking for 1 minute while the remaining cook time counts down (in seconds) on the LCD.
@@ -21,6 +21,5 @@ When the microwave is running, the array of LEDs should be on.
 When it is stopped (no choice is entered), the array of LEDs should go off.
 When the microwave is paused, the array of LEDs should blink (wait till the cooking is resumed or stopped).
 When the microwave completes its function (timer has counted down to zero), the array of LEDs should flash 3 times then the buzzer should be on for 3s.
-Processes Diagram
-image
+#Processes Diagram
 ![182040678-89dc50d8-6313-47e6-8c23-d0f9eada21fa](https://github.com/mohamedmostaf21/Microwave-oven-controller/assets/87494262/245cd3c1-c95c-4af2-9911-f5eb2f1699dc)
